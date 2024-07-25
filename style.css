@@ -6,15 +6,15 @@
 }
 
 
-
-.input {
+input {
   background-image: none;
   
 }
 
 .button {
   background-image: none;
-  background-color: lawngreen;
+  background-color: green;
+  border-radius: 8px;
   color: darkblue;
   padding: 5px;
   font-size: 10px;
