@@ -5,7 +5,6 @@
   background-image: url('https://graph.org/file/141fe5437a98f8b66988f.jpg');
 }
 
-
 h1 {
   font-family: 'Anton', sans-serif;
   font-weight: 400;
@@ -29,11 +28,6 @@ h1 {
   padding: 6px;
   border-radius: 10px;
   color: blueviolet;
-}
-
-.input {
-  background-image: none;
-  
 }
 .button {
   background-image: none;
