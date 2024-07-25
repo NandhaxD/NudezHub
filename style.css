@@ -6,6 +6,10 @@
 }
 
 
+ul li:not(:first-child) {
+  display: block;
+}
+
 input {
   background-image: none;
 }
