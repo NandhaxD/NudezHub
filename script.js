@@ -63,7 +63,6 @@ var IMAGES = [
 var imageList = document.querySelector('.image-list');
 var imageLimit = document.getElementById('searchQuery');
 
-// Function to get a random sample of size n from an array
 function getRandomSample(arr, n) {
     const sample = [];
     const arrCopy = [...arr]; // create a copy of the original array
@@ -86,14 +85,17 @@ function search() {
         return;
     }
 
+    // Clear the existing list
+    imageList.innerHTML = '';
+
     const randomSample = getRandomSample(IMAGES, limit);
-            randomSample.forEach((item, index) => {
-                const newLi = document.createElement('li');
-                newLi.innerHTML = `<img src="${item}" alt="Image ${index}">`;
-                imageList.appendChild(newLi);
-            });
-        }
-      
+    randomSample.forEach((item, index) => {
+        const newLi = document.createElement('li');
+        newLi.innerHTML = `<img src="${item}" alt="Image ${index}">`;
+        imageList.appendChild(newLi);
+    });
+}
+
 window.onload = function() {
     document.querySelector('button').addEventListener('click', search);
 }
