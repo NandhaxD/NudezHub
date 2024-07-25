@@ -7,12 +7,12 @@
 
 
 
-input {
+.input {
   background-image: none;
   
 }
 
-button {
+.button {
   background-image: none;
   background-color: lawngreen;
   color: darkblue;
@@ -20,7 +20,7 @@ button {
   font-size: 10px;
 }
 
-h1 {
+.h1 {
   font-family: 'Anton', sans-serif;
   font-weight: 400;
   display: block;
@@ -29,7 +29,7 @@ h1 {
   font-size: 25px;
 }
 
-h1 {
+.h1 {
   background-color: red;
   border-bottom: 40px;
   background-image: none;
@@ -39,7 +39,7 @@ h1 {
   margin-bottom: 20px; /* Add this line */
 }
 
-h1 span {
+.h1 span {
   padding: 6px;
   border-radius: 10px;
   color: blueviolet;
