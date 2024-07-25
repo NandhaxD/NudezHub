@@ -1,5 +1,5 @@
 const imageList = document.querySelector('.image-list');
-const imageLimit = document.querySelector('.searchQuery');
+const imageLimit = document.getElementById('searchQuery');
 
 // Function to get a random sample of size n from an array
 function getRandomSample(arr, n) {
