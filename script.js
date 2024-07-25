@@ -24,7 +24,7 @@ function search() {
         return;
     }
 
-    fetch('./nude.json')
+    fetch('nude.json')
         .then(response => response.json())
         .then(data => {
             const texts = data; // assuming data is an array of strings
