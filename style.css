@@ -6,21 +6,7 @@
 }
 
 
-.input {
-  background-image: none;
-  
-}
-
-.button {
-  background-image: none;
-  background-color: green;
-  border-radius: 8px;
-  color: darkblue;
-  padding: 5px;
-  font-size: 10px;
-}
-
-.h1 {
+h1 {
   font-family: 'Anton', sans-serif;
   font-weight: 400;
   display: block;
@@ -43,6 +29,19 @@
   padding: 6px;
   border-radius: 10px;
   color: blueviolet;
+}
+
+.input {
+  background-image: none;
+  
+}
+.button {
+  background-image: none;
+  background-color: green;
+  border-radius: 8px;
+  color: darkblue;
+  padding: 5px;
+  font-size: 10px;
 }
 
 .image-list li {
