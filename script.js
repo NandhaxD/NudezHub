@@ -13,6 +13,11 @@ function getRandomSample(arr, n) {
 }
 
 function search() {
+    if (!imageLimit) {
+        console.error('Search query input element not found');
+        return;
+    }
+
     const limit = Number(imageLimit.value);
     if (limit <= 0) {
         console.error('Invalid limit. Please enter a positive integer.');
@@ -31,4 +36,8 @@ function search() {
             });
         })
         .catch(error => console.error('Error:', error));
+}
+
+window.onload = function() {
+    document.querySelector('button').addEventListener('click', search);
 }
