@@ -7,10 +7,11 @@
 
 
 
-
 input {
   background-image: none;
+  
 }
+
 button {
   background-image: none;
   background-color: lawngreen;
@@ -47,7 +48,7 @@ h1 span {
 .image-list li {
   margin: 50px;
   border: 10px solid white;
-  display: block;
+  display: flex;
   border-radius: 15px;
 }
 
